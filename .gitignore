@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Mac
+.DS_Store
+
+# Outputs (ajuste se quiser versionar figuras)
+out_tcc/
