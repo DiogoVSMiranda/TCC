@@ -18,9 +18,9 @@ Mais do que propor um “modelo de mercado”, o projeto busca mostrar, de forma
   - Conversão de Mm³/dia e m³/dia para m³/mês;  
   - Cálculo de `% Reinjeção` e `Intensidade Flaring (%)`;  
   - Junção com base de instalações para trazer `Idade do Ativo` e `Atendimento Campo`;  
-  - Geração da base consolidada `Dados_Finais_V3.xlsx`.
+  - Geração da base consolidada `data_ANP.xlsx`.
 
-- **Análises em Python (script `VF_DiogoMiranda_CodeTCC`)**  
+- **Análises em Python (script `tcc_methane_flaring_pipeline_github.py`)**  
   - Leitura e preparação da base consolidada (`load_and_prepare`);  
   - Foco em instalações **offshore**, com filtro de qualidade adicional (remoção de meses com produção e queima simultaneamente nulas);  
   - **Séries temporais** de intensidade agregada e média móvel de 12 meses (2020–2025);  
